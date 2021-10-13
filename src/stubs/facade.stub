@@ -1,0 +1,11 @@
+<?php
+
+namespace %NAMESPACE%;%USES%
+%ANNOTATIONS%
+class %CLASS%%EXTENDS%
+{
+    protected static function getFacadeAccessor()
+    {
+        return '%CLASSNAME%';
+    }
+}
